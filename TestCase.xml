@@ -1,0 +1,23 @@
+<suite name="TestCase">
+	<parameter name="directoryName" value="Test1" />
+	<test name="AdditionTest">
+		<classes>
+			<class name = "QualityKioskTraining.Assessment3.AdditionTest" />
+		</classes>
+	</test>
+	<test name="MultiplicationTest">
+		<classes>
+			<class name = "QualityKioskTraining.Assessment3.MultiplicationTest" />
+		</classes>
+	</test>
+	<test name="DivisionTest">
+		<classes>
+			<class name = "QualityKioskTraining.Assessment3.DivisionTest" />
+		</classes>
+	</test>
+	<test name="SubstractionTest">
+		<classes>
+			<class name = "QualityKioskTraining.Assessment3.SubstractionTest" />
+		</classes>
+	</test>
+</suite>

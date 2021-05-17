@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestCase" duration-ms="148" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:26 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="AdditionTest.testAdditionWithNegativeValues()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithNegativeValues" class="QualityKioskTraining.Assessment3.AdditionTest"/>
+        <method signature="AdditionTest.testAdditionWithPositiveValues()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithPositiveValues" class="QualityKioskTraining.Assessment3.AdditionTest"/>
+        <method signature="AdditionTest.testAddtionWithFloatValues(double, double, double)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAddtionWithFloatValues" class="QualityKioskTraining.Assessment3.AdditionTest"/>
+        <method signature="MultiplicationTest.testMultiplicationWithDataDriven(int, int, int)[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="testMultiplicationWithDataDriven" class="QualityKioskTraining.Assessment3.MultiplicationTest"/>
+        <method signature="DivisionTest.testDivisionWithFloatValues()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="testDivisionWithFloatValues" class="QualityKioskTraining.Assessment3.DivisionTest"/>
+        <method signature="SubstractionTest.testSubtractionWithPositiveValues()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="testSubtractionWithPositiveValues" class="QualityKioskTraining.Assessment3.SubstractionTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="AdditionTest.testAdditionWithDataDriven(int, int, int)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithDataDriven" class="QualityKioskTraining.Assessment3.AdditionTest"/>
+        <method signature="AdditionTest.testAdditionWithPositiveValues()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithPositiveValues" class="QualityKioskTraining.Assessment3.AdditionTest"/>
+        <method signature="DivisionTest.testDivisionWithIntegerValues()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="testDivisionWithIntegerValues" class="QualityKioskTraining.Assessment3.DivisionTest"/>
+      </group> <!-- RegressionTest -->
+      <group name="RegeressionTest">
+        <method signature="MultiplicationTest.testMultiplicationWithFloatValues()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="testMultiplicationWithFloatValues" class="QualityKioskTraining.Assessment3.MultiplicationTest"/>
+        <method signature="MultiplicationTest.testMultiplicationWithPositiveValues()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="testMultiplicationWithPositiveValues" class="QualityKioskTraining.Assessment3.MultiplicationTest"/>
+        <method signature="SubstractionTest.testSubtractionWithFloatValues()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="testSubtractionWithFloatValues" class="QualityKioskTraining.Assessment3.SubstractionTest"/>
+      </group> <!-- RegeressionTest -->
+    </groups>
+    <test name="AdditionTest" duration-ms="60" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:26 IST">
+      <class name="QualityKioskTraining.Assessment3.AdditionTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="init" is-config="true" duration-ms="2" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testAdditionWithDataDriven(int, int, int)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithDataDriven" duration-ms="7" started-at="2021-04-24T12:53:25 IST" data-provider="provideNumbers" finished-at="2021-04-24T12:53:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithDataDriven -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="testAdditionWithDataDriven(int, int, int)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithDataDriven" duration-ms="0" started-at="2021-04-24T12:53:25 IST" data-provider="provideNumbers" finished-at="2021-04-24T12:53:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithDataDriven -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testAdditionWithDataDriven(int, int, int)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithDataDriven" duration-ms="1" started-at="2021-04-24T12:53:25 IST" data-provider="provideNumbers" finished-at="2021-04-24T12:53:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithDataDriven -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="reinitializeResult" is-config="true" duration-ms="1" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="testAdditionWithNegativeValues()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithNegativeValues" duration-ms="1" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithNegativeValues -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="testAdditionWithPositiveValues()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAdditionWithPositiveValues" duration-ms="1" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithPositiveValues -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testAddtionWithFloatValues(double, double, double)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAddtionWithFloatValues" duration-ms="1" started-at="2021-04-24T12:53:26 IST" data-provider="provideFloatValues" finished-at="2021-04-24T12:53:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddtionWithFloatValues -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="testAddtionWithFloatValues(double, double, double)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAddtionWithFloatValues" duration-ms="1" started-at="2021-04-24T12:53:26 IST" data-provider="provideFloatValues" finished-at="2021-04-24T12:53:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddtionWithFloatValues -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testAddtionWithFloatValues(double, double, double)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="testAddtionWithFloatValues" duration-ms="1" started-at="2021-04-24T12:53:26 IST" data-provider="provideFloatValues" finished-at="2021-04-24T12:53:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-20.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-30.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddtionWithFloatValues -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QualityKioskTraining.Assessment3.AdditionTest -->
+    </test> <!-- AdditionTest -->
+    <test name="MultiplicationTest" duration-ms="15" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+      <class name="QualityKioskTraining.Assessment3.MultiplicationTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="init" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testMultiplicationWithDataDriven(int, int, int)[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="testMultiplicationWithDataDriven" duration-ms="1" started-at="2021-04-24T12:53:26 IST" data-provider="provideNumbers" finished-at="2021-04-24T12:53:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationWithDataDriven -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testMultiplicationWithDataDriven(int, int, int)[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="testMultiplicationWithDataDriven" duration-ms="1" started-at="2021-04-24T12:53:26 IST" data-provider="provideNumbers" finished-at="2021-04-24T12:53:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationWithDataDriven -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testMultiplicationWithDataDriven(int, int, int)[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="testMultiplicationWithDataDriven" duration-ms="0" started-at="2021-04-24T12:53:26 IST" data-provider="provideNumbers" finished-at="2021-04-24T12:53:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationWithDataDriven -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="reinitializeResult" is-config="true" duration-ms="1" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testMultiplicationWithFloatValues()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="testMultiplicationWithFloatValues" duration-ms="1" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationWithFloatValues -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="testMultiplicationWithPositiveValues()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="testMultiplicationWithPositiveValues" duration-ms="1" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationWithPositiveValues -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.MultiplicationTest@614ddd49]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+      </class> <!-- QualityKioskTraining.Assessment3.MultiplicationTest -->
+    </test> <!-- MultiplicationTest -->
+    <test name="DivisionTest" duration-ms="5" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+      <class name="QualityKioskTraining.Assessment3.DivisionTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="init" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testDivisionWithFloatValues()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="testDivisionWithFloatValues" duration-ms="1" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionWithFloatValues -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="testDivisionWithIntegerValues()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="testDivisionWithIntegerValues" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionWithIntegerValues -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="initializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.DivisionTest@51cdd8a]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+      </class> <!-- QualityKioskTraining.Assessment3.DivisionTest -->
+    </test> <!-- DivisionTest -->
+    <test name="SubstractionTest" duration-ms="5" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+      <class name="QualityKioskTraining.Assessment3.AdditionTest">
+        <test-method status="PASS" signature="createDirectory(java.lang.String)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="createDirectory" is-config="true" duration-ms="16" started-at="2021-04-24T12:53:25 IST" finished-at="2021-04-24T12:53:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDirectory -->
+        <test-method status="PASS" signature="copyReport(java.lang.String)[pri:0, instance:QualityKioskTraining.Assessment3.AdditionTest@5c5a1b69]" name="copyReport" is-config="true" duration-ms="9" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyReport -->
+      </class> <!-- QualityKioskTraining.Assessment3.AdditionTest -->
+      <class name="QualityKioskTraining.Assessment3.SubstractionTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="init" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="initializeResult" is-config="true" duration-ms="1" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="testSubtractionWithFloatValues()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="testSubtractionWithFloatValues" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionWithFloatValues -->
+        <test-method status="PASS" signature="initializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="initializeResult" is-config="true" duration-ms="1" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeResult -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+        <test-method status="PASS" signature="testSubtractionWithPositiveValues()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="testSubtractionWithPositiveValues" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionWithPositiveValues -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="reinitializeResult()[pri:0, instance:QualityKioskTraining.Assessment3.SubstractionTest@6895a785]" name="reinitializeResult" is-config="true" duration-ms="0" started-at="2021-04-24T12:53:26 IST" finished-at="2021-04-24T12:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reinitializeResult -->
+      </class> <!-- QualityKioskTraining.Assessment3.SubstractionTest -->
+    </test> <!-- SubstractionTest -->
+  </suite> <!-- TestCase -->
+</testng-results>

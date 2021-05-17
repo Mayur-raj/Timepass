@@ -1,0 +1,16 @@
+<suite name="SmokeTest">
+	<parameter name="directoryName" value="SMKTest3" />
+	<groups>
+		<run>
+			<include name="SmokeTest" />
+		</run>
+	</groups>
+	<test name= "Smoke Test">
+		<classes>
+			<class name="QualityKioskTraining.Assessment3.AdditionTest" />
+			<class name="QualityKioskTraining.Assessment3.MultiplicationTest" />
+			<class name="QualityKioskTraining.Assessment3.DivisionTest" />
+			<class name="QualityKioskTraining.Assessment3.SubstractionTest" />
+		</classes>
+	</test>
+</suite>
